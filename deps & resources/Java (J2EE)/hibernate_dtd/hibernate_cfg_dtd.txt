@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+
+
+
+
+
+
+
+
+<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <property name="connection.url">jdbc:oracle:thin:@172.16.1.29:1521
+:Nalanda</property>
+        <property name="connection.username">train21</property>
+        <property name="connection.password">train21</property>
+ 
+        <property name="connection.pool_size">10</property>
+       <property name="dialect">org.hibernate.dialect.OracleDialect</property>
+   <property name="show_sql">true</property>
